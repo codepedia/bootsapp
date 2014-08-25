@@ -2,12 +2,29 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Bootstrap -->
   <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville|Karla' rel='stylesheet' type='text/css'>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/bootstrap-theme.min.css" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/business-casual.css" rel="stylesheet">
+
+  <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<!-- <link href="images/" rel="images"> -->
+
 
  
   <!--[if lt IE 9]>
@@ -16,12 +33,13 @@
   <![endif]-->
 </head>
 <body>
-
+<div class="brand">ARABIC PRODUCTS</div>
+<div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
  <div class="container-fluid"> 
  <!--<div class="well  span12"> -->
  <div class="navbar">  <!-- navbar-fixed-top -->
  <div class="navbar-inverse">
-<ul class="nav nav-tabs nav-justified breadcrumb" role="tablist">
+<ul class="nav nav-tabs nav-justified" role="tablist">
            <li class="divider breadcrumb" ><a href="index.html">Main</a></li>
            <li class="divider breadcrumb"><a href="about_us.html">About</a></li>
            <li class="divider breadcrumb"><a href="products.html">Products</a></li>
@@ -45,7 +63,7 @@
      <ul class="thumbnails">
          <li class="span4">
          <article class="thumbnails">
-             <img  class="img-responsive" src="images/atlayib_corned.jpg" alt="first product." />
+             <img  class="img-responsive" src="img/atlayib_corned.jpg" alt="first product." />
               <h3> firstproduct h</h3>
               <p>SHAMRA.COM offers you an exciting selection of fine Greek and Middle Eastern cookbooks. Learn how to make delicious Mediterranean dishes that are simple and nutritious.</p>
 
@@ -54,7 +72,7 @@
 
            <li class="span4">
          <article class="thumbnails">
-             <img src="images/atlayib_corned.jpg" alt="first product." />
+             <img src="/atlayib_corned.jpg" alt="first product." />
               <h3> firstproduct h</h3>
               <p>SHAMRA.COM offers you an exciting selection of fine Greek and Middle Eastern cookbooks. Learn how to make delicious Mediterranean dishes that are simple and nutritious.</p>
 
@@ -63,7 +81,7 @@
 
            <li class="span4">
          <article class="thumbnails">
-             <img src="images/atlayib_corned.jpg" alt="first product." />
+             <img src="img/atlayib_corned.jpg" alt="first product." />
               <h3> firstproduct h</h3>
               <p>SHAMRA.COM offers you an exciting selection of fine Greek and Middle Eastern cookbooks. Learn how to make delicious Mediterranean dishes that are simple and nutritious.</p>
 
@@ -83,13 +101,13 @@
 
 <!--
 <div class="row"> 
-  <div class="col-xs-3"> <!-- this size is too big , it was preventing images from being on the same rwo "col-sm-6 col-md-4"-->
+  <div class="col-xs-3"> <!-- this size is too big , it was preventing img from being on the same rwo "col-sm-6 col-md-4"-->
   <!--
     <div class="thumbnail">
       <img data-src="holder.js/300x300" alt="...">
       <div class="caption">
 
-       <img  class="img-responsive" src="images/bully_corned_beef.jpg" alt="first product." />
+       <img  class="img-responsive" src="img/bully_corned_beef.jpg" alt="first product." />
         <h3>Thumbnail label</h3>
         <p>...</p>
         <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
@@ -103,7 +121,7 @@
     <div class="thumbnail">
       <img data-src="holder.js/300x300" alt="...">
       <div class="caption">
-       <img  class="img-responsive" src="images/drink_ZIDO.jpg" alt="first product." />
+       <img  class="img-responsive" src="img/drink_ZIDO.jpg" alt="first product." />
         <h3>Thumbnail label</h3>
         <p>...</p>
         <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
@@ -117,7 +135,7 @@
     <div class="thumbnail">
       <img data-src="holder.js/300x300" alt="arabic food">
       <div class="caption">
-       <img  class="img-responsive" src="images/drink_ZIDO.jpg" alt="first product." />
+       <img  class="img-responsive" src="img/drink_ZIDO.jpg" alt="first product." />
         <h3>Thumbnail label</h3>
         <p>SHAMRA.COM offers you an exciting selection of fine Greek and Middle Eastern cookbooks. Learn how to make delicious Mediterranean dishes that are simple and nutritious.</p>
       </div>
@@ -139,7 +157,7 @@
             <class="thumbnail">
              <div class="caption">
             <img data-src="holder.js/300x300" alt="...">
-               <img  class="img-responsive" src="images/drink_ZIDO.jpg" alt="first product." />
+               <img  class="img-responsive" src="img/drink_ZIDO.jpg" alt="first product." />
 
            
 
@@ -150,7 +168,7 @@
         <div class="col-xs-3">
             <class="thumbnail">
             <img data-src="holder.js/300x300" alt="arabic food">
-                <img  class="img-responsive" src="images/drink_ZIDO.jpg" alt="first product." />
+                <img  class="img-responsive" src="img/drink_ZIDO.jpg" alt="first product." />
            
 
              <h3>Thumbnail label</h3>
@@ -160,7 +178,7 @@
         <div class="col-xs-3">
             <class="thumbnail">
             <img data-src="holder.js/300x300" alt="arabic food">
-            <img  class="img-responsive" src="images/drink_ZIDO.jpg" alt="first product." />
+            <img  class="img-responsive" src="img/drink_ZIDO.jpg" alt="first product." />
            
 
              <h3>Thumbnail label</h3>
@@ -170,7 +188,7 @@
         <div class="col-xs-3">
             <class="thumbnail">
             <img data-src="holder.js/300x300" alt=" arabic food">
-                <img  class="img-responsive" src="images/drink_ZIDO.jpg" alt="first product." />
+                <img  class="img-responsive" src="img/drink_ZIDO.jpg" alt="first product." />
         
 
              <h3>Thumbnail label</h3>
@@ -191,9 +209,15 @@
       <div class="navbar navbar-default ">  <!--navbar-fixed-bottom -->
 
   <div class="container">
- <p class="muted pull-right"> Created by Z the Man of The master Plan</p>
-  <p class="muted pull-left"> Created by Z the Man of The master Plan</p>
-
+  <div class="col-md-4 muted pull-right">
+                <h3><span class="glyphicon glyphicon-heart"></span> Footer section 1</h3>
+                <p>Content for the first footer section.</p>
+            </div>
+         
+            <div class="col-md-4 muted pull-left">
+                <h3><span class="glyphicon glyphicon-music"></span> Footer section 3</h3>
+                <p>Content for the third footer section.</p>
+            </div>
 </div> <!-- container-->
 </div> <!-- navbar navbar-default navbar-fixed-bottom" --> 
       
@@ -204,4 +228,4 @@
       <script src="js/bootstrap.js"></script>
 
 </body>
-    </html>
+    </html>	
