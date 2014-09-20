@@ -6,7 +6,8 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    /*background: url('../img/bg.jpg') no-repeat center center fixed; */
+    background: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -102,16 +103,17 @@ hr {
     margin: 0 auto 0;
 }
 
-footer {
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+.footer {
+    background: #333333;
+    color: #eee;
+    padding: 20px;
 }
 
-footer p {
+.footer p {
     margin: 0;
     padding: 50px 0;
 }
-
+/* The below is the properties of brand that is used one the top of the page */
 @media screen and (min-width:768px) {
     .brand {
         display: inherit;
@@ -123,7 +125,7 @@ footer p {
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
-        color: #fff;
+        color: #333;
     }
 
     .top-divider {
