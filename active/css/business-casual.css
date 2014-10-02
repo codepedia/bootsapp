@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+/*All pages use common body property*/
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -36,7 +32,6 @@ hr {
     max-width: 400px;
     border-color: #999999;
 }
-
 .brand,
 .address-bar {
     display: none;
@@ -77,6 +72,7 @@ hr {
     max-width: 250px;
     border-color: #999999;
 }
+/* contact_us.hml file for carsoul images*/
 
 .box {
     margin-bottom: 20px;
@@ -103,6 +99,8 @@ hr {
     margin: 0 auto 0;
 }
 
+/* Ends contact_us.hml file for carsoul images*/
+
 .footer {
     background: #333333;
     color: #eee;
@@ -113,7 +111,7 @@ hr {
     margin: 0;
     padding: 50px 0;
 }
-/* The below is the properties of brand that is used one the top of the page */
+/* Also,  The below is the properties of brand that is used one the top of the page  the big font *name of the business**/
 @media screen and (min-width:768px) {
     .brand {
         display: inherit;
@@ -150,110 +148,31 @@ hr {
         color: #fff;
     }
 
-    .navbar {
-        border-radius: 0;
-    }
-
-    .navbar-header {
-        display: none;
-    }
-
-    .navbar {
-        min-height: 0;
-    }
-
-    .navbar-default {
-        border: none;
-        background: #fff;
-        background: rgba(255,255,255,0.9);
-    }
-
-    .nav>li>a {
-        padding: 35px;
-    }
-
-    .navbar-nav>li>a {
-        line-height: normal;
-    }
-
-    .navbar-nav {
-        display: table;
-        float: none;
-        margin: 0 auto;
-        table-layout: fixed;
-        font-size: 1.25em;
-    }
-}
-
-@media screen and (min-width:1200px) {
-    .box:after {
-        content: '';
-        display: table;
-        clear: both;
-    }
+ 
 }
 
 
-/* Starts nav-custom-css*/
-
-/* ---------------  NAV   -------------- */
-.header_section hgroup{
-    float: left;
-    width: 94px;
-    display: block;
-    vertical-align: baseline;
-}
-.header_section hgroup h2{
-    padding-top: 13px;
-    margin: 0;
-}
-.header_section hgroup h2 a{
-    border: 0 none;
-}
-.header_section{
+/*Starts navbar custome css*/
+.breadcrumb{
     clear: both;
-    height: 77px;
     overflow: hidden;
     background: #050505;
     background: -webkit-gradient(linear,left top,left bottom,from(#282828),to(#050505));
     background: -moz-linear-gradient(top,#282828,#050505);
-    min-width: 1014px;
-
-}
-#myTab{
-    padding-top: 52px;
-    margin-bottom: 0;
 }
 
-.header_section ul.nav li.bigmenu:first-child {
-    border-left: 0 none;
-    padding-left: 0;
+
+.nav li {
+margin: 0;
+padding: 8px 0;
+list-style-type: none;
+font-size: 16px;
 }
-.header_section ul.nav li.bigmenu:last-child {
-    border-right: 0 none;
-    padding-right: 0;
-}
-.header_section ul.nav li.bigmenu{
-    border-left: 1px solid #545455;
-    border-right: 1px solid #3A3A3B;
-    float: left;
-    height: 8px;
-    line-height: 8px;
-    padding: 0 92px; /* increase and decrease the width of the padding fr the navs*/
-    cursor: pointer;
-}
-.header_section ul.nav li.bigmenu  a{
-    background: url('../img/subnav.jpg') no-repeat scroll center 35px transparent;
-    color: #FFFFFF;
-    float: left;
-    font: 11px/8px 'HelveticaNeue-Roman',Arial,sans-serif;
-    height:20px;
-    padding-top: 15px;
-    margin-top: -15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: background-position 100ms ease-out 0s;
-}
-.header_section ul.nav li.bigmenu:hover a, .header_section ul.nav li.bigmenu.active a{
-    background-position: center 30px;
+
+.nav li a {
+font-weight: bold;
+font-family: georgia, times, serif;
+text-decoration: none;
+color: #ffffff;
+text-shadow: 0 1px 0 #ffffff;
 }
