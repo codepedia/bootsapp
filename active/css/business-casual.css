@@ -1,13 +1,12 @@
 /*All pages use common body property*/
 
 body {
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; */
-    background: url('../img/bgimage.jpg') no-repeat center center fixed; 
-    /*background: #fff;*/
+  
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../img/background_dir/iPadBackgroundTexture-grey.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
 }
 
 h1,
@@ -31,10 +30,6 @@ p {
 hr {
     max-width: 400px;
     border-color: #999999;
-}
-.brand,
-.address-bar {
-    display: none;
 }
 
 .navbar-brand {
@@ -114,17 +109,19 @@ hr {
 /* Also,  The below is the properties of brand that is used one the top of the page  the big font *name of the business**/
 @media screen and (min-width:768px) {
     .brand {
-        display: inherit;
+      display: inherit;
+       font-family: Courier, monospace;
         margin: 0;
-        padding: 30px 0 10px;
+        margin-top: 50px;
+        padding: 0 0 10px;
         text-align: center;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 5em;
-        font-weight: 700;
-        line-height: normal;
-        color: #333;
+        text-shadow:0px 0px 0 rgb(206,206,206),1px 1px 0 rgb(166,166,166),2px 2px 0 rgb(127,127,127), 3px 3px 0 rgb(88,88,88),4px 4px 3px rgba(0,0,0,0.35),4px 4px 1px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,.2);
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight:bold;
+        color: #ffffff;
     }
+  }
 
     .top-divider {
         margin-top: 0;
@@ -138,19 +135,16 @@ hr {
     .address-bar {
         display: inherit;
         margin: 0;
+        margin-top: 20px;
         padding: 0 0 40px;
         text-align: center;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-shadow: 0px 2px 2px #000;
         text-transform: uppercase;
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
         color: #fff;
     }
-
- 
-}
-
 
 /*Starts navbar custome css*/
 .breadcrumb{
@@ -226,7 +220,7 @@ text-shadow: 0 1px 0 #ffffff;
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
+/* Declare heights =>> positioning of img element */
 .carousel .item {
   height: 500px;
   background-color: #777;
@@ -317,3 +311,5 @@ text-shadow: 0 1px 0 #ffffff;
 
 
 /*End carsoul custom css*/
+
+
