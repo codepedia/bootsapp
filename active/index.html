@@ -5,9 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Bootstrap -->
+  <!-- Added the below link to extend from fontowesome @!!TODO, download actual file and update -->
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville|Karla' rel='stylesheet' type='text/css'>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Font owsoem props -->
+   <link href="css/font-awesome.css" rel="stylesheet">
+   <link href="css/font-awesome.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/font-awesome-ie7.css">
+  
+  
   <!-- Custom CSS -->
   <link href="css/business-casual.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
@@ -40,7 +48,7 @@
            </div>
 
            <div class="col-md-2" id="thumbnail caption">
-           <img class="center-block img-responsive" style="max-width:100px; margin-top:8px;" src="img/logo.png"></a>
+           <img class="center-block img-responsive" style="max-width:60px; margin-top:8px;" src="img/logo.png"></a>
            </div>
 
            <div class="col-md-5">
@@ -124,12 +132,30 @@
    </div> <!-- ends <div class="container" id="parent"> -->
 
 
+
+
  <!-- starts footer -->
 
 <div class="footer">  <!--navbar-fixed-bottom -->
+
+<!-- Starts top-footer -->
+    <div class="container-12">
+
+        <ol class="social list-inline fa" style="padding-top: 15px;">
+            <h class="follow_us">Follow us</h>
+          <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li> <!-- Change # with your facebook link -->
+          <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li> <!-- Change # with your twitter link -->
+          <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a></li> <!-- Change # with your googleplus link -->
+          <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li> <!-- Change # with your instagram link -->
+        </ol>
+
+    </div>
+   
+
   <div class="container">
       <div class="row">
-        <div class="col-xs-3">
+      <div class="pull-left">
+        <div class="col-xs-9">
           <h4>BootstrapBay</h4>
             <ul class="list-unstyled">
               <li><a href="/sell">Sell Your Themes</a></li>
@@ -138,34 +164,49 @@
               <li><a href="/feed">RSS Feed</a></li>
             </ul>
         </div>
-        <div class="col-xs-3">
-          <h4>Help &amp; Support</h4>
-          <ul class="list-unstyled">
-            <li><a href="/faq">FAQ</a></li>
-            <li><a href="/submission-guidelines">Submission Guidelines</a></li>
-            <li><a href="/payment-rates">Payment Rates</a></li>
-            <li><a href="/contact-support">Contact Support</a></li>
-          </ul>
-        </div>
-        <div class="col-xs-3">
-          <h4>Resources</h4>
-          <ul class="list-unstyled">
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/blog/bootstrap-resources/">Resource List</a></li>
-            <li><a href="/blog/category/tutorials/">Tutorials</a></li>
-          </ul>
-        </div>
-        <div class="col-xs-3">
-          <h4>Social</h4>
-          <ul class="list-unstyled">
-            <li><a href="https://www.facebook.com/bootstrapbay" target="_blank">Facebook</a></li>
-            <li><a href="https://twitter.com/bootstrapbay" target="_blank">Twitter</a></li>
-            <li><a href="http://www.youtube.com/user/bootstrapbayofficial" target="_blank">YouTube</a></li>
-            <li><a href="https://plus.google.com/+BootstrapbayThemes/posts" target="_blank">Google+</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+        </div> <!-- Ends pull-left -->
+          
+  
+
+        <div class="pull-right">
+         <div class="col-xs-9 footer-col">
+                        <div class="footer-title">
+                            Get In Touch
+                        </div>
+                        <div class="footer-content">
+                            <ul class="contact-info">
+              <!-- Comment this<li>
+                                    <div class="contact-title">
+                                        <i class="icon-map-marker"></i>Address
+                                    </div>
+                                    <div class="contact-details">38222 California</div>
+                                </li> -->
+                                <li> 
+                                    <div class="contact-title">
+                                        <i class="icon-phone"></i>phone
+                                    </div>
+                                    <div class="contact-details">123-345-6666</div>
+                                </li>
+                                <li>
+                                    <div class="contact-title">
+                                        <i class="icon-envelope"></i>eMail
+                                    </div>
+                                    <div class="contact-details"><a href="mailto:info@company.com">info@companyname.com</a></div>
+                                </li>
+                                <li>
+                                    <div class="contact-title">
+                                        <i class="icon-globe"></i>Website
+                                    </div>
+                                    <div class="contact-details"><a href="#">www.companyname.com</a></div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+        </div> <!-- Ends pull-right -->
+
+      </div> <!-- Ends row -->
+    </div> <!-- ends Container -->
 
     <div class="subFooter">
       <div class="container">
